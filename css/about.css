@@ -1,0 +1,72 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{ font-family: arial-narrow; 
+	
+}
+
+div{ 
+	box-sizing: border-box;
+	background-color: #f9b572;
+
+}
+
+
+.navbar{
+	width: 100%;
+	background-color: #f9b572;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.logo{
+	font-size: 40px;
+	font-weight: bold;
+	color: #7C9D96;
+	padding: 20px;
+}
+
+.logo span.dev-color{
+	color: #f9b572;
+}
+
+.navmenu{
+	width: 100%;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	background-color: #f9b572;
+	margin-bottom: 20px;
+}
+
+.navmenu li a {
+	font-size: 22px;
+	color: black;
+	text-decoration: none;
+
+}
+
+.navmenu li a:hover {
+	font-size: 20px;
+	color: red; text-decoration: unset;
+	transition: 0.3s;
+}
+.about{
+	background-color: white;
+	text-align: center;
+	margin: auto;
+	width: 50%;
+	margin-bottom: 20px;
+}
+.penjelasan{
+	background-color: white;
+	text-align: center;
+	margin: auto;
+	width: 40%;
+	padding: 30px;
+	text-align: center;
+	border: 5px dashed black;
+	margin-bottom: 10%;
+}
